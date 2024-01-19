@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio | AnaPrint - Tu Tienda Online de Tecnología</title>
+    <meta
+      name="description"
+      content="Descubre los mejores productos tecnológicos en AnaPrint. Ofrecemos discos duros, cartuchos de tinta, procesadores y más. ¡Potencia tu vida digital con nosotros!"
+    />
+    <meta
+      name="keywords"
+      content="AnaPrint, tecnología, discos duros, ssd, cartuchos de tinta, procesadores, placas madre, impresoras, tarjetas de memoria"
+    />
+    <meta name="author" content="AnaPrint" />
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="AnaPrint - Tu Tienda Online de Tecnología"
+    />
+    <meta
+      property="og:description"
+      content="Descubre los mejores productos tecnológicos en AnaPrint. Ofrecemos discos duros, cartuchos de tinta, procesadores y más. ¡Potencia tu vida digital con nosotros!"
+    />
+    <meta
+      property="og:image"
+      content="URL_DE_LA_IMAGEN_DESTACADA_PARA_REDES_SOCIALES"
+    />
+    <meta property="og:url" content="URL_DE_TU_PAGINA" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.9/dist/css/splide.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AnaPrint</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="guia.html">Guia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center flex-wrap">
+              <form class="d-flex me-3">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  id="search-input"
+                />
+                <button
+                  class="btn btn-outline-success btn-search"
+                  type="submit"
+                  id="search-button"
+                >
+                  Buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img
+                src="https://cdn.andro4all.com/andro4all/2023/01/disco-SSD-y-carcasa.jpg"
+                alt="Discos Duros y SSD"
+              />
+              <div class="image-title">
+                ¡Potencia Tu Almacenamiento! Descubre Nuestra Gama de Discos
+                Duros y SSD
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://ar-media.hptiendaenlinea.com/wysiwyg/landings/supplies/familia-de-cartuchos-de-tinta-hp-122-y-hp-122xl.png"
+                alt="Cartuchos de Impresora"
+              />
+              <div class="image-title">
+                Imprime con Calidad: Explora Nuestros Cartuchos de Tinta para
+                Impresoras
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://i.blogs.es/887b03/imagen-de-intel-/500_333.jpeg"
+                alt="Procesadores"
+              />
+              <div class="image-title">
+                Potencia y Eficiencia: Descubre Nuestros Procesadores Intel
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://sistemacontinuo.com.ar/7599-large_default/tinta-epson-544.jpg"
+                alt="Botellas de Tinta Epson"
+              />
+              <div class="image-title">
+                Colores que Impactan: Explora Nuestras Botellas de Tinta Epson
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_703544-MLU70790483360_082023-O.webp"
+                alt="Placas Madre"
+              />
+              <div class="image-title">
+                La Base de tu Equipo: Descubre Nuestras Últimas Placas Madre
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="splide__pagination"></div>
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev"></button>
+          <button class="splide__arrow splide__arrow--next"></button>
+        </div>
+      </div>
+    </div>
+
+    <section id="filter" class="container text-center my-4">
+      <div class="filter-buttons">
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="priceFilterDropdown"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Filtrar por Precio
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="priceFilterDropdown">
+            <li>
+              <a class="dropdown-item" href="#" data-price="50000"
+                >$50.000 o menos</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-price="100000"
+                >$100.000 o menos</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-price="200000"
+                >$200.000 o menos</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button class="btn btn-primary show-all" data-type="all">
+          Mostrar Todos
+        </button>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="locationFilterDropdown"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Filtrar por Producto
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="locationFilterDropdown">
+            <li>
+              <a class="dropdown-item" href="#" data-type="cartucho"
+                >Cartuchos</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-type="disco">Discos</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-type="botella">Botellas</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-type="procesador"
+                >Procesadores</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-type="placa madre"
+                >Placas Madre</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-type="tarjeta de memoria"
+                >Tarjetas de Memoria</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-type="otro">Otros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="container">
+      <div class="row" id="products-row"></div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <h3>Copyright © 2023 - AnaPrint - Todos los derechos reservados</h3>
+      </div>
+      <div class="social-buttons">
+        <a
+          href="https://www.youtube.com/channel/UCATWSJ_zgKcoI3GTfoT_eEg"
+          class="social-button youtube"
+        >
+          <img src="youtube.png" alt="YouTube Logo" />
+        </a>
+        <a href="https://wa.link/fzp351" class="social-button tiktok">
+          <img src="whatsapp.png" alt="TikTok Logo" />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/metasmile"
+          class="social-button linkedin"
+        >
+          <img src="linkedin.png" alt="LinkedIn Logo" />
+        </a>
+        <a
+          href="https://www.instagram.com/anaprint45/"
+          class="social-button instagram"
+        >
+          <img src="instagram.png" alt="Instagram Logo" />
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+  </body>
+</html>
