@@ -703,6 +703,10 @@ textarea.form-control {
   font-size: 1.25rem;
 }
 
+.splide {
+  margin-top: 30px;
+}
+
 #filter {
   display: flex;
   justify-content: center;
