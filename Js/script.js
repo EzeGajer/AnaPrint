@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    fetch('products.json')
+    fetch('Data/products.json')
         .then(response => response.json())
         .then(data => {
             products = data;
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
         displayProducts(filteredProducts);
     });
 
-    fetch('products.json')
+    fetch('Data/products.json')
         .then(response => response.json())
         .then(data => {
             products = data;
