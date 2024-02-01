@@ -1,8 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     const productsContainer = document.getElementById("products-row");
-    const cartButton = document.getElementById("cart-button");
-    const notificationDiv = document.getElementById("notification");
-    const purchaseForm = document.getElementById("purchase-form");
     const showAllButton = document.querySelector(".show-all");
 
     let products = [];
@@ -21,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <div class="card-body">
                             <h5 class="card-title">${product.name}</h5>
                             <p class="card-text">${product.description}</p>
-                            <p class="card-price">$${formatPrice(product.price)}</p>
+                            <p class="card-price">$${formatPrice(product.price.toFixed(0))}</p>
                             <p class="card-type">${product.productType}</p>
                             <button class="btn btn-primary add-to-cart" data-product-id="${product.id}" data-link="${product.link}">Agregar al Carrito</button>
                         </div>
