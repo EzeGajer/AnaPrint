@@ -60,7 +60,7 @@
       "price": 37500,
       "productType": "Disco",
       "link": "https://wa.link/fzp351",
-      "image": "https://compucordoba.com.ar/img/Public/1078-producto-disco-a400-960gb-kingston-2254.jpg"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_792045-MLA54923442215_042023-O.webp"
     },
     {
       "id": 8,
@@ -96,7 +96,7 @@
       "price": 78000,
       "productType": "Disco",
       "link": "https://wa.link/fzp351",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_836185-MLU70065184775_062023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_729109-MLA53524736571_012023-O.webp"
     },    
     {
       "id": 12,
@@ -118,12 +118,12 @@
     },
     {
       "id": 14,
-      "name": "Disco Sólido Interno Hikvision",
+      "name": "Disco Solido Interno Hikvision",
       "description": "Disco Sólido Interno Hikvision C100 Series Hs-ssd-c100/240g",
       "price": 29850,
       "productType": "Disco",
       "link": "https://wa.link/fzp351",
-      "image": "https://d2izjnmtylvtfh.cloudfront.net/28713652-large_default/disco-solido-interno-hikvision-120-gb-c-100-sataiii.jpg"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_602804-MLU73936758789_012024-O.webp"
     },
     {
       "id": 15,
@@ -222,7 +222,7 @@
       "price": 343000,
       "productType": "Procesador",
       "link": "https://wa.link/fzp351",
-      "image": "https://www.soscomputacion.com.ar/22239-thickbox_default/micro-intel-core-i5-10400f-procesador-gamer-de-6-nucleos-43ghz-sin-video-s1200.jpg"
+      "image": "https://lezamapc.com.ar/25104-large_default/microprocesador-intel-core-i5-12400-alderlake-s1700-box.jpg"
     },
     {
       "id": 26,
@@ -240,7 +240,7 @@
       "price": 80000,
       "productType": "Tarjeta de Memoria",
       "link": "https://wa.link/fzp351",
-      "image": "https://www.elcelu.com.ar/5599-large_default/memoria-kingston-micro-sd-128gb.jpg"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_889294-MLU72607282157_102023-O.webp"
     },
     {
       "id": 28,
@@ -258,7 +258,7 @@
       "price": 30000,
       "productType": "Tarjeta de Memoria",
       "link": "https://wa.link/fzp351",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9aenvZ7LCoi1yX0jQUeqGM0_f5Vlq-x2KGA&usqp=CAU"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_882536-MLU69399961678_052023-O.webp"
     },
     {
       "id": 29,
@@ -312,7 +312,7 @@
       "price": 26900,
       "productType": "Tarjeta de Memoria",
       "link": "https://wa.link/fzp351",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_830070-MLA44180686702_112020-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_766071-MLA43473518585_092020-O.webp"
     },
     {
       "id": 35,
@@ -357,7 +357,7 @@
       "price": 100551,
       "productType": "Otro",
       "link": "https://wa.link/fzp351",
-      "image": "https://xiaomionline.cl/media/catalog/product/cache/2b88132ea045bae0fc2b44a4f558f9b1/m/m/mm000xia82_1.jpg"
+      "image": "https://cdn-xiaomi.waugi.com.ar/2381-thickbox_default/camara-inteligente-xiaomi-c400.jpg"
     },
     {
       "id": 40,
