@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Cartucho Tinta Hp 662",
       "description": "Cartucho Tinta Hp 662 Negro Original 2545 2645 3545 4645",
-      "price": 20990,
+      "price": 20200,
       "productType": "Cartucho",
       "link": "https://wa.link/fzp351",
       "image": "https://images.start.com.ar/CZ103AL.jpg"
@@ -21,7 +21,7 @@
       "id": 3,
       "name": "Cartucho Tinta Hp 667xl",
       "description": "Cartucho Tinta Hp 667xl Negro Original 1275 2375 2775 4175",
-      "price": 57900,
+      "price": 55850,
       "productType": "Cartucho",
       "link": "https://wa.link/fzp351",
       "image": "https://ar-media.hptiendaenlinea.com/catalog/product/cache/314dec89b3219941707ad62ccc90e585/3/Y/3YM81AL-1_T1679635622.png"
@@ -40,7 +40,7 @@
       "name": "Botella Tinta Epson 774",
       "description": "Botella Tinta Epson 774 Negro Original M105 M205 T774120",
       "price": 86000,
-      "productType": "Botella",
+      "productType": "Botella de tinta",
       "link": "https://wa.link/fzp351",
       "image": "https://www.soscomputacion.com.ar/26747-thickbox_default/tinta-epson-774-t7741-negro-140ml-original.jpg"
     },
@@ -66,7 +66,7 @@
       "id": 8,
       "name": "Disco sólido interno Crucial",
       "description": "Disco sólido interno Crucial CT240BX500SSD1 240GB negro",
-      "price": 32000,
+      "price": 31000,
       "productType": "Disco",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_NQ_NP_918598-MLA46413084774_062021-O.webp"
@@ -75,7 +75,7 @@
       "id": 9,
       "name": "Disco duro externo Seagate Expansion",
       "description": "Disco duro externo Seagate Expansion STKM4000400 4TB negro",
-      "price": 183500,
+      "price": 158900,
       "productType": "Disco",
       "link": "https://wa.link/fzp351",
       "image": "https://images.start.com.ar/STKM1000400-2.jpg"
@@ -84,7 +84,7 @@
       "id": 10,
       "name": "Disco Solido Ssd",
       "description": "Disco Solido Ssd 500 Gb Sata Crucial Bx500",
-      "price": 43950,
+      "price": 43699,
       "productType": "Disco",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_NQ_NP_968051-MLA51839702367_102022-O.webp"
@@ -120,7 +120,7 @@
       "id": 14,
       "name": "Disco Solido Interno Hikvision",
       "description": "Disco Sólido Interno Hikvision C100 Series Hs-ssd-c100/240g",
-      "price": 29850,
+      "price": 30000,
       "productType": "Disco",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_NQ_NP_602804-MLU73936758789_012024-O.webp"
@@ -129,7 +129,7 @@
       "id": 15,
       "name": "Procesador gamer Intel Core i3-10105",
       "description": "Procesador gamer Intel Core i3-10105 BX8070110105 de 4 núcleos y 4.4GHz de frecuencia con gráfica integrada",
-      "price": 196000,
+      "price": 165478,
       "productType": "Procesador",
       "link": "https://wa.link/fzp351",
       "image": "https://www.soscomputacion.com.ar/25868/micro-procesador-intel-core-i3-10105-44ghz-comet-lake-s1200.jpg"
@@ -138,7 +138,7 @@
       "id": 16,
       "name": "Microprocesador Intel Core i3-10105F",
       "description": "Microprocesador Intel Core i3-10105F BX8070110105F de 4 núcleos y 3.7GHz de frecuencia sin gráficos integrados",
-      "price": 129500,
+      "price": 119400,
       "productType": "Procesador",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_NQ_NP_727009-MLA48211910351_112021-O.webp"
@@ -165,7 +165,7 @@
       "id": 19,
       "name": "Cartucho De Tinta Epson 206",
       "description": "Cartucho De Tinta Epson 206 Negro Original T206120 Xp2101",
-      "price": 59500,
+      "price": 57500,
       "productType": "Cartucho",
       "link": "https://wa.link/fzp351",
       "image": "https://www.intermaco.com.ar/productos/T206120-AL.jpg"
@@ -183,8 +183,8 @@
       "id": 21,
       "name": "Botella Tinta Epson 664",
       "description": "Botella Tinta Epson 664 Negro Original L100 L200 L300 L3050",
-      "price": 27800,
-      "productType": "Botella",
+      "price": 24400,
+      "productType": "Botella de tinta",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_NQ_NP_706611-MLA70589957007_072023-O.webp"
     },
@@ -193,7 +193,7 @@
       "name": "Botella Tinta Epson 504",
       "description": "Botella Tinta Epson 504 Negro Original L4150 L4260 L6270",
       "price": 41500,
-      "productType": "Botella",
+      "productType": "Botella de tinta",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_NQ_NP_763283-MLA31936264128_082019-O.webp"
     },
@@ -202,7 +202,7 @@
       "name": "Botellas Tinta Epson 544",
       "description": "Botellas Tinta Epson 544 Original Pack Economico X4",
       "price": 98000,
-      "productType": "Botella",
+      "productType": "Botella de tinta",
       "link": "https://wa.link/fzp351",
       "image": "https://sistemacontinuo.com.ar/7599-large_default/tinta-epson-544.jpg"
     },
@@ -211,7 +211,7 @@
       "name": "Botella Tinta Epson 673",
       "description": "Botella Tinta Epson 673 Amarillo T673420 L800 L805 L1800",
       "price": 27400,
-      "productType": "Botella",
+      "productType": "Botella de tinta",
       "link": "https://wa.link/fzp351",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkZslqlRUy3HPubn_AiDXYc0qMvbn1c4Jog&usqp=CAU"
     },
@@ -219,7 +219,7 @@
       "id": 25,
       "name": "Microprocesador Intel Core I5",
       "description": "Microprocesador Intel Core I5 12400 20mb 2.50 Ghz Socket 1700 Bx8071512400 12va Generacion Alder Lake",
-      "price": 343000,
+      "price": 326950,
       "productType": "Procesador",
       "link": "https://wa.link/fzp351",
       "image": "https://lezamapc.com.ar/25104-large_default/microprocesador-intel-core-i5-12400-alderlake-s1700-box.jpg"
@@ -228,7 +228,7 @@
       "id": 26,
       "name": "Motherboard Asus A520m-k",
       "description": "Motherboard Asus A520m-k Amd Compatible Ryzen 3ra Gen",
-      "price": 128000,
+      "price": 113900,
       "productType": "Placa Madre",
       "link": "https://wa.link/fzp351",
       "image": "https://www.venex.com.ar/products_images/1603824949_pqerl1syvua5y2uo_setting_fff_1_90_end_1000.jpg"
@@ -237,7 +237,7 @@
       "id": 27,
       "name": "Memoria Kingston Micro",
       "description": "Memoria Kingston Micro Sdxc Canvas Go Plus 512gb Uhs-i U3 V3",
-      "price": 80000,
+      "price": 90000,
       "productType": "Tarjeta de Memoria",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_NQ_NP_889294-MLU72607282157_102023-O.webp"
@@ -264,7 +264,7 @@
       "id": 29,
       "name": "Mother Y Micro Integrado Gigabyte",
       "description": "Mother Y Micro Integrado Gigabyte N5105i H Intel Quad Core",
-      "price": 196000,
+      "price": 183950,
       "productType": "Placa Madre",
       "link": "https://wa.link/fzp351",
       "image": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/2136/innergigabyteimages/spec.png"
@@ -274,7 +274,7 @@
       "name": "Botella Tinta Epson 504",
       "description": "Botella Tinta Epson 504 Magenta Original",
       "price": 43900,
-      "productType": "Botella",
+      "productType": "Botella de tinta",
       "link": "https://wa.link/fzp351",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvpooYDtGN8_PIcEc7Qb1oaSVwDqNu5ciIg&usqp=CAU"
     },
@@ -308,15 +308,6 @@
     {
       "id": 34,
       "name": "Tarjeta de memoria Kingston",
-      "description": "Tarjeta de memoria Kingston SDCS2/256GB con adaptador SD 256GB",
-      "price": 26900,
-      "productType": "Tarjeta de Memoria",
-      "link": "https://wa.link/fzp351",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_766071-MLA43473518585_092020-O.webp"
-    },
-    {
-      "id": 35,
-      "name": "Tarjeta de memoria Kingston",
       "description": "Tarjeta de memoria Kingston SDCS2/512GB Canvas Select con adaptador SD 512GB",
       "price": 65500,
       "productType": "Tarjeta de Memoria",
@@ -324,7 +315,7 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Q_gFZPFId_XJ_E5mSo2xAAo91jaEejtQhg&usqp=CAU"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Disco Duro Wd Videovigilancia",
       "description": "Disco Duro Wd Videovigilancia 4tb 3.5 Sata Purple Wd43purz Color Púrpura",
       "price": 185990,
@@ -333,16 +324,16 @@
       "image": "https://http2.mlstatic.com/D_NQ_NP_635970-MLU70794470410_082023-O.webp"
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "Toner Hp 215a",
       "description": "Toner Hp 215a Negro Original W2310a M182 M183",
-      "price": 167500,
+      "price": 177500,
       "productType": "Otro",
       "link": "https://wa.link/fzp351",
       "image": "https://ntdigital.ar/images/product_image/18897/0?fit=fill&w=1200&h=630"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "Repetidor Xiaomi",
       "description": "Repetidor Xiaomi Mi Wi-Fi Range Extender Pro R03 negro 100V/240V",
       "price": 39000,
@@ -351,16 +342,16 @@
       "image": "https://acdn.mitiendanube.com/stores/443/907/products/83repetidor-de-senal-wifi-xiaomi-pro-5hz-imagen-1702581-6f6fecb63c5d27e63c16589237407583-640-0.jpg"
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "Cámara De Seguridad 360°",
       "description": "Cámara De Seguridad 360° Xiaomi Smart Camera C400 Wi-fi 2.5k Color Blanco",
-      "price": 100551,
+      "price": 108000,
       "productType": "Otro",
       "link": "https://wa.link/fzp351",
       "image": "https://cdn-xiaomi.waugi.com.ar/2381-thickbox_default/camara-inteligente-xiaomi-c400.jpg"
     },
     {
-      "id": 40,
+      "id": 39,
       "name": "Impresora Epson",
       "description": "Impresora simple función Epson EcoTank M1120 con wifi blanca y negra 220V",
       "price": 610000,
@@ -369,7 +360,7 @@
       "image": "https://www.intermaco.com.ar/productos/C11CG96303-2.jpg"
     },
     {
-      "id": 41,
+      "id": 40,
       "name": "Router Xiaomi",
       "description": "Router Xiaomi Mi 4A blanco 110V/240V",
       "price": 78500,
@@ -378,7 +369,7 @@
       "image": "https://sdbe.com.ar/wp-content/uploads/2022/01/4A.png"
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "Mouse HyperX Pulsefire Raid",
       "description": "Mouse HyperX Pulsefire Raid - Negro",
       "price": 73500,
@@ -387,7 +378,7 @@
       "image": "https://row.hyperx.com/cdn/shop/products/hyperx_pulsefire_raid_2_angled_back.jpg?v=1662435267"
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "Micrófono HyperX",
       "description": "Micrófono HyperX 4P5E2AA color negro",
       "price": 165000,
@@ -396,7 +387,7 @@
       "image": "https://ar-media.hptiendaenlinea.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/4/P/4P5E2AA-1_T1696453045.png"
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "Pendrive Kingston DataTraveler",
       "description": "Pendrive Kingston DataTraveler Kyson DTKN/256 256GB 3.2 Gen 1",
       "price": 39508,
@@ -405,16 +396,16 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRogNEffWFP_-1fG9iPU8QTuXFSP5HrcesTdg&usqp=CAU"
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "Auriculares Inalambricos Xiaomi",
       "description": "Auriculares Inalambricos Xiaomi Buds 3t Pro Bluetooth Verde",
-      "price": 119000,
-      "productType": "Otro",
+      "price": 115000,
+      "productType": "Auriculares",
       "link": "https://wa.link/fzp351",
       "image": "https://http2.mlstatic.com/D_Q_NP_888780-MLU72930687341_112023-O.webp"
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "Cartucho Tinta Epson 207",
       "description": "Cartucho Tinta Epson 207 Negro Original 206 Alta Carga Xp2101",
       "price": 97999,
@@ -423,13 +414,76 @@
       "image": "https://www.compumanias.com.ar/images/052762.jpg"
     },
     {
-      "id": 47,
+      "id": 46,
       "name": "Luz Led Sensor",
       "description": "Luz Led Sensor Lámpara De Luz Nocturna Xiaomi Mi Motion 2",
-      "price": 25000,
+      "price": 29999,
       "productType": "Otro",
       "link": "https://wa.link/fzp351",
       "image": "https://www.megatone.net/images/Articulos/zoom/334/MKT0018ETC_2.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Micrófono Profesional Hyperx Procast",
+      "description": "Micrófono Profesional Hyperx Procast Color Negro",
+      "price": 207678,
+      "productType": "Otro",
+      "link": "https://wa.link/fzp351",
+      "image": "https://http2.mlstatic.com/D_Q_NP_755892-MLU73578768686_122023-O.webp"
+    },
+    {
+      "id": 48,
+      "name": "Calculadora calculadora financiera HP",
+      "description": "Calculadora calculadora financiera HP 17BII+ color carbón de aleación metálica",
+      "price": 198500,
+      "productType": "Otro",
+      "link": "https://wa.link/fzp351",
+      "image": "https://images-cdn.ubuy.com.sa/64c24757ea312c77a777fcae-hp-17bii-financial-calculator-22-digit.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Calculadora científica HP",
+      "description": "Calculadora científica HP 10B2+ NW239AA color negro",
+      "price": 98000,
+      "productType": "Otro",
+      "link": "https://wa.link/fzp351",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_698877-MLU72737013926_112023-O.webp"
+    },
+    {
+      "id": 50,
+      "name": "Capturadora Evga",
+      "description": "Capturadora Evga Xr1 4k/60fps Usb 3.0 Megasoft Caballito",
+      "price": 220000,
+      "productType": "Otro",
+      "link": "https://wa.link/fzp351",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_606155-MLU71765325453_092023-O.webp"
+    },
+    {
+      "id": 51,
+      "name": "Hyperx Cloud Buds Bluetooth Audífonos",
+      "description": "Hyperx Cloud Buds Bluetooth Audífonos Gaming Con Micrófono",
+      "price": 85000,
+      "productType": "Auriculares",
+      "link": "https://wa.link/fzp351",
+      "image": "https://row.hyperx.com/cdn/shop/files/hyperx_cloud_buds_1_main.jpg?v=1700189382"
+    },
+    {
+      "id": 52,
+      "name": "Auriculares Hyperx Cloud Stinger Core",
+      "description": "Auriculares Hyperx Cloud Stinger Core Wireless 4p5j0aa Xbox",
+      "price": 135000,
+      "productType": "Auriculares",
+      "link": "https://wa.link/fzp351",
+      "image": "https://row.hyperx.com/cdn/shop/products/hyperx_cloudx_stinger_core_wireless_1_main.jpg?v=1662421282"
+    },
+    {
+      "id": 53,
+      "name": "Auriculares Hyperx Cloud Stinger Core",
+      "description": "Auriculares Hyperx Cloud Stinger Core Wireless+7.1 Hhss1c-ba",
+      "price": 165000,
+      "productType": "Auriculares",
+      "link": "https://wa.link/fzp351",
+      "image": "https://row.hyperx.com/cdn/shop/products/hyperx_cloud_stinger_core_wireless_7.1_07_extended_2048x2048.jpg?v=1662421260"
     }
 
   ]

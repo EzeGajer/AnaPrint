@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let products = [];
 
-    if (cartButton) {
-        cartButton.addEventListener("click", toggleCart);
+    function formatPrice(price) {
+        return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 
     function displayProducts(productsToShow) {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <div class="card-body">
                             <h5 class="card-title">${product.name}</h5>
                             <p class="card-text">${product.description}</p>
-                            <p class="card-price">$${product.price.toFixed(2)}</p>
+                            <p class="card-price">$${formatPrice(product.price)}</p>
                             <p class="card-type">${product.productType}</p>
                             <button class="btn btn-primary add-to-cart" data-product-id="${product.id}" data-link="${product.link}">Agregar al Carrito</button>
                         </div>
@@ -32,41 +32,36 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    function filterElements(filterFunction) {
+        const elements = productsContainer.querySelectorAll(".col");
+        elements.forEach(element => {
+            filterFunction(element);
+        });
+    }
+
     function filterByType(productType) {
-        const products = productsContainer.querySelectorAll(".col");
-        products.forEach(product => {
+        filterElements(product => {
             const typeElement = product.querySelector(".card-type");
             const productTypeText = typeElement.textContent.trim().toLowerCase();
-            if (productTypeText.includes(productType.toLowerCase())) {
-                product.style.display = "block";
-            } else {
-                product.style.display = "none";
-            }
+            product.style.display = productTypeText.includes(productType.toLowerCase()) ? "block" : "none";
+        });
+    }
+
+    function filterByPrice(price) {
+        filterElements(product => {
+            const priceElement = product.querySelector(".card-price");
+            const productPrice = parseFloat(priceElement.textContent.slice(1));
+            product.style.display = productPrice <= price ? "block" : "none";
         });
     }
 
     document.querySelectorAll('[data-type]').forEach(option => {
         option.addEventListener("click", function () {
             const productType = option.dataset.type;
-            productsContainer.querySelectorAll(".col").forEach(product => {
-                product.style.display = "block";
-            });
+            filterElements(product => product.style.display = "block");
             filterByType(productType);
         });
     });
-
-    function filterByPrice(price) {
-        const products = productsContainer.querySelectorAll(".col");
-        products.forEach(product => {
-            const priceElement = product.querySelector(".card-price");
-            const productPrice = parseFloat(priceElement.textContent.slice(1));
-            if (productPrice <= price) {
-                product.style.display = "block";
-            } else {
-                product.style.display = "none";
-            }
-        });
-    }
 
     document.querySelectorAll('[data-price]').forEach(option => {
         option.addEventListener("click", function () {
@@ -76,9 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     showAllButton.addEventListener("click", function () {
-        productsContainer.querySelectorAll(".col").forEach(product => {
-            product.style.display = "block";
-        });
+        filterElements(product => product.style.display = "block");
     });
 
     productsContainer.addEventListener("click", function (event) {
@@ -89,45 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    fetch('Data/products.json')
-        .then(response => response.json())
-        .then(data => {
-            products = data;
-            displayProducts(products);
-        })
-        .catch(error => {
-            console.error('Error al cargar los productos:', error);
-        });
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-    const productsContainer = document.getElementById("products-row");
-    const searchForm = document.getElementById("search-form");
-
-    let products = [];
-
-    function displayProducts(productsToShow) {
-        productsContainer.innerHTML = "";
-        productsToShow.forEach(product => {
-            const productCard = `
-                <div class="col">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="${product.image}" alt="${product.name}">
-                        <div class="card-body">
-                            <h5 class="card-title">${product.name}</h5>
-                            <p class="card-text">${product.description}</p>
-                            <p class="card-price">$${product.price.toFixed(2)}</p>
-                            <p class="card-type">${product.productType}</p>
-                            <button class="btn btn-primary add-to-cart" data-product-id="${product.id}" data-link="${product.link}">Agregar al Carrito</button>
-                        </div>
-                    </div>
-                </div>
-            `;
-            productsContainer.innerHTML += productCard;
-        });
-    }
-
-    // Cambiando el evento a keyup para manejar la entrada del usuario
     document.getElementById("search-input").addEventListener("keyup", function () {
         const searchTerm = this.value.toLowerCase();
         const filteredProducts = products.filter(product => product.name.toLowerCase().includes(searchTerm));
