@@ -36,40 +36,69 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    function filterByType(productType) {
+    function filterByTypeAndPrice(productType, maxPrice) {
         filterElements(product => {
             const typeElement = product.querySelector(".card-type");
+            const priceElement = product.querySelector(".card-price");
+            
             const productTypeText = typeElement.textContent.trim().toLowerCase();
-            product.style.display = productTypeText.includes(productType.toLowerCase()) ? "block" : "none";
+            const productPrice = parseFloat(priceElement.textContent.slice(1).replace(".", ""));
+
+            const typeCondition = productType ? productTypeText.includes(productType.toLowerCase()) : true;
+            const priceCondition = maxPrice ? productPrice <= maxPrice : true;
+
+            product.style.display = typeCondition && priceCondition ? "block" : "none";
         });
     }
 
-    function filterByPrice(price) {
-        filterElements(product => {
-            const priceElement = product.querySelector(".card-price");
-            const productPrice = parseFloat(priceElement.textContent.slice(1));
-            product.style.display = productPrice <= price ? "block" : "none";
-        });
+    function updateFilter() {
+        const selectedType = getSelectedType();
+        const selectedPrice = getSelectedPrice();
+        filterByTypeAndPrice(selectedType, selectedPrice);
     }
 
     document.querySelectorAll('[data-type]').forEach(option => {
         option.addEventListener("click", function () {
-            const productType = option.dataset.type;
-            filterElements(product => product.style.display = "block");
-            filterByType(productType);
+            toggleActiveClass(option);
+            updateFilter();
         });
     });
 
     document.querySelectorAll('[data-price]').forEach(option => {
         option.addEventListener("click", function () {
-            const price = parseFloat(option.dataset.price);
-            filterByPrice(price);
+            toggleActiveClass(option);
+            updateFilter();
         });
     });
 
     showAllButton.addEventListener("click", function () {
         filterElements(product => product.style.display = "block");
+        clearActiveClasses();
     });
+
+    function toggleActiveClass(element) {
+        element.classList.toggle('active');
+    }
+
+    function clearActiveClasses() {
+        document.querySelectorAll('[data-type]').forEach(option => {
+            option.classList.remove('active');
+        });
+
+        document.querySelectorAll('[data-price]').forEach(option => {
+            option.classList.remove('active');
+        });
+    }
+
+    function getSelectedType() {
+        const selectedTypeButton = Array.from(document.querySelectorAll('[data-type].active'))[0];
+        return selectedTypeButton ? selectedTypeButton.dataset.type : null;
+    }
+
+    function getSelectedPrice() {
+        const selectedPriceButton = Array.from(document.querySelectorAll('[data-price].active'))[0];
+        return selectedPriceButton ? parseFloat(selectedPriceButton.dataset.price.replace(".", "")) : null;
+    }
 
     productsContainer.addEventListener("click", function (event) {
         const addToCartButton = event.target.closest(".add-to-cart");
